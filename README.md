@@ -195,7 +195,7 @@ This step builds the software from source.
 <pre>
 git clone git@github.com:cloudera/search.git
 cd search
-#git checkout master
+# git checkout master
 mvn clean package
 ls search-dist/target/*.tar.gz
 </pre>
